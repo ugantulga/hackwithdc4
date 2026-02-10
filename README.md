@@ -5,7 +5,6 @@ This project is an email assistant meant to assist you in responding to business
 ## Tech Stack 
 
  ### Models used
-- Ollama
 - Deepseek
 ### APIs used
 - Linkup
@@ -30,7 +29,7 @@ This project is an email assistant meant to assist you in responding to business
 
 ### Data Flow
 ```
-Gmail Inbox ──▶ readEmail.py ──▶ EmailConductor.py ──▶ Ollama / DeepSeek LLM
+Gmail Inbox ──▶ readEmail.py ──▶ EmailConductor.py ──▶  DeepSeek LLM
                      │                   │
                      │                   ├─ classify_email()
                      │                   ├─ summarize_email()
