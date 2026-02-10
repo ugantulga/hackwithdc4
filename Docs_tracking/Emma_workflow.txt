@@ -1,0 +1,44 @@
+desktop-agent/
+├── app.py                      ← Put here
+├── demo.py                     ← Put here
+├── test_installation.py        ← Put here
+├── requirements.txt            ← Put here
+├── setup.sh                    ← Put here
+├── .env.template               ← Put here
+│
+├── agent/
+│   └── desktop_agent.py        ← Put here
+│
+├── tools/
+│   ├── linkup_tool.py          ← Put here
+│   └── document_tools.py       ← Put here
+│
+└── memory/
+    └── local_memory.py         ← Put here
+
+
+
+
+ first run LLAMA app as admin
+
+1. check if LLAMA is running locally on browser
+http://localhost:11434/
+
+Everything is in CLI:
+2. Activate the environment by typing  **** your folder .\env\scripts\activate.ps1 
+3. python test_installation.py 
+4. streamlit run app.py 
+
+Example:   Local URL: http://localhost:8501
+  Network URL: http://172.24.0.54:8501
+
+
+🔄 Running the App NEXT TIME
+Every time you want to use the app, follow these steps:
+Quick Start (Next Time):
+PowerShell Window 1:
+powershell ollama serve
+PowerShell Window 2:
+powershell cd desktop-agent
+.\venv\Scripts\Activate.ps1
+streamlit run app.py

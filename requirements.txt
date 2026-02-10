@@ -1,0 +1,33 @@
+# Core Framework
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-core==0.1.52
+
+# Local LLM
+ollama==0.1.7
+
+# Web UI
+streamlit==1.32.2
+
+# Vector Store & Memory
+faiss-cpu==1.8.0
+sentence-transformers==2.5.1
+
+# Database
+sqlalchemy==2.0.29
+
+# Document Processing
+pypdf==4.1.0
+python-docx==1.1.0
+python-pptx==0.6.23
+pillow==10.3.0
+
+# Email
+email-validator==2.1.1
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.31.0
+
+# MCP Client (we'll implement a simple wrapper)
+# Note: MCP Python SDK is still evolving, we'll use direct HTTP/stdio
